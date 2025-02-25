@@ -1,8 +1,10 @@
 Firstly, I want to say that I used my own installation of Android Studio for the example.
+
 So run the command below:
 ```bash
 nano $HOME/.local/share/applications/androidstudio.desktop
 ```
+
 Where `androidstudio` can be the name of your application.
 the content within this *.desktop file must basically contain the data below:
 ```bash
@@ -24,6 +26,11 @@ Icon=/opt/android-studio/bin/studio.png
 Terminal=false
 Type=Application
 Categories=Development;IDE;
+```
+
+In this case you will have to give execution permission by running the command below:
+```bash
+chmod +x ~/.local/share/applications/android-studio.desktop
 ```
 
 And that's it!
