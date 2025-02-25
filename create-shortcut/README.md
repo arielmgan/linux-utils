@@ -2,7 +2,7 @@ Firstly, I want to say that I used my own installation of Android Studio for the
 
 So run the command below:
 ```bash
-nano $HOME/.local/share/applications/androidstudio.desktop
+nano ~/.local/share/applications/androidstudio.desktop
 ```
 
 Where `androidstudio` can be the name of your application.
